@@ -1,0 +1,341 @@
+{
+  "Botamon": [
+    "Koromon",
+    "Sukamon"
+  ],
+  "Poyomon": [
+    "Tokomon",
+    "Sukamon"
+  ],
+  "Punimon": [
+    "Tsunomon",
+    "Sukamon"
+  ],
+  "Yuramon": [
+    "Tanemon",
+    "Sukamon"
+  ],
+  "Koromon": [
+    "Agumon",
+    "Gabumon",
+    "Kunemon",
+    "Sukamon"
+  ],
+  "Tokomon": [
+    "Patamon",
+    "Biyomon",
+    "Kunemon",
+    "Sukamon"
+  ],
+  "Tsunomon": [
+    "Elecmon",
+    "Penguinmon",
+    "Kunemon",
+    "Sukamon"
+  ],
+  "Tanemon": [
+    "Palmon",
+    "Betamon",
+    "Kunemon",
+    "Sukamon"
+  ],
+  "Agumon": [
+    "Greymon",
+    "Meramon",
+    "Birdramon",
+    "Centarumon",
+    "Monochromon",
+    "Tyrannomon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Gabumon": [
+    "Centarumon",
+    "Monochromon",
+    "Drimogemon",
+    "Tyrannomon",
+    "Ogremon",
+    "Garurumon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Patamon": [
+    "Drimogemon",
+    "Tyrannomon",
+    "Ogremon",
+    "Leomon",
+    "Angemon",
+    "Unimon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Elecmon": [
+    "Leomon",
+    "Angemon",
+    "Bakemon",
+    "Kokatorimon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Biyomon": [
+    "Birdramon",
+    "Airdramon",
+    "Kokatorimon",
+    "Unimon",
+    "Kabuterimon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Kunemon": [
+    "Bakemon",
+    "Kabuterimon",
+    "Kuwagamon",
+    "Vegiemon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Palmon": [
+    "Kuwagamon",
+    "Vegiemon",
+    "Ninjamon",
+    "Whamon",
+    "Coelamon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Betamon": [
+    "Seadramon",
+    "Whamon",
+    "Shellmon",
+    "Coelamon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Penguinmon": [
+    "Whamon",
+    "Shellmon",
+    "Garurumon",
+    "Frigimon",
+    "Mojyamon",
+    "Numemon",
+    "Nanimon",
+    "Sukamon"
+  ],
+  "Greymon": [
+    "MetalGreymon",
+    "SkullGreymon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Meramon": [
+    "MetalGreymon",
+    "Andromon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Birdramon": [
+    "Phoenixmon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Centarumon": [
+    "Andromon",
+    "Giromon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Monochromon": [
+    "MetalGreymon",
+    "MetalMamemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Drimogemon": [
+    "MetalGreymon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Tyrannomon": [
+    "MetalGreymon",
+    "Megadramon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Devimon": [
+    "SkullGreymon",
+    "Megadramon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Ogremon": [
+    "Andromon",
+    "Giromon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Leomon": [
+    "Andromon",
+    "Mamemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Angemon": [
+    "Andromon",
+    "Phoenixmon",
+    "Devimon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Bakemon": [
+    "SkullGreymon",
+    "Giromon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Airdramon": [
+    "Megadramon",
+    "Phoenixmon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Kokatorimon": [
+    "Phoenixmon",
+    "Piximon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Unimon": [
+    "Giromon",
+    "Phoenixmon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Kabuterimon": [
+    "H-Kabuterimon",
+    "MetalMamemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Kuwagamon": [
+    "H-Kabuterimon",
+    "Piximon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Vegiemon": [
+    "Piximon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Ninjamon": [
+    "Piximon",
+    "MetalMamemon",
+    "Mamemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Seadramon": [
+    "Megadramon",
+    "MegaSeadramon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Whamon": [
+    "MegaSeadramon",
+    "Mamemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Shellmon": [
+    "H-Kabuterimon",
+    "MegaSeadramon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Coelamon": [
+    "MegaSeadramon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Garurumon": [
+    "SkullGreymon",
+    "MegaSeadramon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Frigimon": [
+    "MetalMamemon",
+    "Mamemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Mojyamon": [
+    "SkullGreymon",
+    "Mamemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Numemon": [
+    "Monzaemon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "Sukamon": [
+    "Etemon",
+    "Vademon"
+  ],
+  "Nanimon": [
+    "Digitamamon",
+    "Vademon",
+    "Sukamon"
+  ],
+  "MetalGreymon": [
+    "Sukamon"
+  ],
+  "Andromon": [
+    "Sukamon"
+  ],
+  "SkullGreymon": [
+    "Sukamon"
+  ],
+  "Megadramon": [
+    "Sukamon"
+  ],
+  "Giromon": [
+    "Sukamon"
+  ],
+  "Phoenixmon": [
+    "Sukamon"
+  ],
+  "H-Kabuterimon": [
+    "Sukamon"
+  ],
+  "Piximon": [
+    "Sukamon"
+  ],
+  "MetalMamemon": [
+    "Sukamon"
+  ],
+  "Mamemon": [
+    "Sukamon"
+  ],
+  "MegaSeadramon": [
+    "Sukamon"
+  ],
+  "Monzaemon": [
+    "Sukamon"
+  ],
+  "Vademon": [],
+  "Digitamamon": [
+    "Sukamon"
+  ],
+  "Etemon": []
+}
