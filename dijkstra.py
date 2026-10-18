@@ -50,6 +50,8 @@ class Graph:
                 cost = costs.get(target, 0)
                 self.add_edge(node_digimon, node_target, cost)
 
+
+
     def dijkstra(self, origin_value):
         for u in self.nodes:
             u.d = float("inf")
@@ -100,7 +102,20 @@ with open(cost_file, 'r') as f:
 graph.create_graph(evolution_data, cost_data)
 print(f"Total Digimons: {len(graph.nodes)}")
 
-origin = input("Insert the origin Digimon (ex: Agumon): ").capitalize()
+print("\n" + "="*50)
+print("Percorrendo vértices e vizinhança:")
+print("="*50)
+for node in sorted(graph.nodes, key=lambda n: n.value):
+    print(f"\nVértice: {node.value}")
+    if node.neighbors:
+        print("Vizinhança:")
+        for neighbor, cost in node.neighbors:
+            print(f"  - {neighbor.value} (custo: {cost})")
+    else:
+        print("Vizinhança: []")
+print("="*50 + "\n")
+
+origin = input("Insert the origin Digimon (ex: Agumon): ")
 print("\n" + "="*50)
 print(f"Running Dijkstra from {origin}")
 print("="*50)
