@@ -1,6 +1,6 @@
 # Digimon Evolution Graph - Dijkstra Algorithm
 
-This project implements Dijkstra's algorithm to find the shortest path between Digimon evolutions based on key point requirements.
+This project implements Dijkstra's algorithm to find the shortest path between Digimon evolutions based on key point requirements from OG Digimon World 1 from Playstation.
 
 ## Overview
 
@@ -8,6 +8,17 @@ The graph represents Digimon evolution paths where:
 - Each node is a Digimon
 - Each edge represents a possible evolution
 - Edge cost = number of key requirements (key points) needed to evolve
+
+## Key Points Calculation
+
+Each evolution requirement counts as 1 key point:
+- HP, MP, Offense, Defense, Speed, Brains
+- Care mistakes, Weight
+- Battles, Techniques
+- Happiness, Discipline
+
+Example: If a Digimon requires HP=1000, MP=1000, and Speed=100, the cost is 3 key points.
+
 
 ## Files
 
@@ -33,16 +44,6 @@ python3 parse_costs.py
 ```bash
 python3 dijkstra.py
 ```
-
-## Key Points Calculation
-
-Each evolution requirement counts as 1 key point:
-- HP, MP, Offense, Defense, Speed, Brains
-- Care mistakes, Weight
-- Battles, Techniques
-- Happiness, Discipline
-
-Example: If a Digimon requires HP=1000, MP=1000, and Speed=100, the cost is 3 key points.
 
 ## Example Output
 

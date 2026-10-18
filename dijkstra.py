@@ -85,48 +85,33 @@ class Graph:
                         heapq.heappush(pq, (new_dist, counter, v))
 
 
-if __name__ == "__main__":
-    graph = Graph()
 
-    evolution_file = os.path.join(os.path.dirname(__file__), 'digimon.json')
-    cost_file = os.path.join(os.path.dirname(__file__), 'costs.json')
+graph = Graph()
 
-    with open(evolution_file, 'r') as f:
-        evolution_data = f.read()
+evolution_file = os.path.join(os.path.dirname(__file__), 'digimon.json')
+cost_file = os.path.join(os.path.dirname(__file__), 'costs.json')
 
-    with open(cost_file, 'r') as f:
-        cost_data = f.read()
+with open(evolution_file, 'r') as f:
+    evolution_data = f.read()
 
-    graph.create_graph(evolution_data, cost_data)
-    print(f"Total Digimons: {len(graph.nodes)}")
+with open(cost_file, 'r') as f:
+    cost_data = f.read()
 
-    print("\n" + "="*50)
-    print("Running Dijkstra from Koromon")
-    print("="*50)
-    graph.dijkstra("Koromon")
+graph.create_graph(evolution_data, cost_data)
+print(f"Total Digimons: {len(graph.nodes)}")
 
-    print("\nMinimum distances from Koromon:")
-    print("-" * 50)
-    distances = sorted([(n.value, n.d) for n in graph.nodes], key=lambda x: x[1])
+origin = input("Insert the origin Digimon (ex: Agumon): ").capitalize()
+print("\n" + "="*50)
+print(f"Running Dijkstra from {origin}")
+print("="*50)
+graph.dijkstra(origin)
 
-    for digimon, dist in distances:
-        if dist == float("inf"):
-            print(f"{digimon}: unreachable")
-        else:
-            print(f"{digimon}: {dist} key points")
+print(f"\nMinimum distances from {origin}:")
+print("-" * 50)
+distances = sorted([(n.value, n.d) for n in graph.nodes], key=lambda x: x[1])
 
-    print("\n" + "="*50)
-    print("Shortest path from Koromon to MetalGreymon:")
-    print("="*50)
-    path = []
-    node = next((n for n in graph.nodes if n.value == "MetalGreymon"), None)
-
-    if node and node.d != float("inf"):
-        while node:
-            path.append(node.value)
-            node = node.pi
-        path.reverse()
-        print(" -> ".join(path))
-        print(f"Total cost: {next((n.d for n in graph.nodes if n.value == 'MetalGreymon'), 0)} key points")
+for digimon, dist in distances:
+    if dist == float("inf"):
+        print(f"{digimon}: unreachable")
     else:
-        print("MetalGreymon is unreachable from Koromon")
+        print(f"{digimon}: {dist} key points")
